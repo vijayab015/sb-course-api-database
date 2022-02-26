@@ -25,7 +25,6 @@ public class TopicService {
 
 	public Topic getTopic(String id) {
 		return topicrep.findOne(id);
-		//topicrep.
 	}
 
 	public void addTopic(Topic topic) {
